@@ -1,22 +1,22 @@
 import java.util.Scanner;
-class SumOfFactorOfNum
+class ProductOfFactorOfNum
 {
 	public static void main(String[] args)
 	{
 		Scanner ac=new Scanner(System.in);
 		System.out.println("Enter a Number:");
 		int num=ac.nextInt();
-		int sum=0;
+		int product=1;
 		int i;
 		for( i=1;i<=num;i++)
 		{
 			if(num%i==0)
 			{
 				System.out.print(i +" " );
-				sum+=i;
+				product*=i;
 			}
 		}
 		System.out.println();
-		System.out.println("Sum of Factors of a number:" +sum);
-		}
+		System.out.println("Product of Factors of a number:" +product);
+	}
 }

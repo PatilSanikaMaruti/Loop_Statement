@@ -17,7 +17,7 @@ class PrimeNumWithFactors
 		}
 
 		System.out.println(cnt==0?"Prime Number":"Not Prime Number");
-		System.out.println("Conunt:" +cnt);
+		System.out.println("Count:" +cnt);
 
 	}
 }
