@@ -10,25 +10,18 @@ class SumOfFactorialOfOddNo
 
 		while(num>0)
 		{
-			
 			int rem=num%10;
 			if(rem%2==1)
 			{
 				int fact=1;	
 				for(int i=rem;i>=1;i--)
 				{
-				
-				fact*=i;
-				
-					
+					fact*=i;
 				}
 				sum+=fact;
 			}
-			
 			num/=10;
 		}
-		
-
 		System.out.println("Sum of Fatorial of Odd Digit of Entered Number is " +sum);
 	}
 }

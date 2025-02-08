@@ -11,12 +11,11 @@ class SumOfFactorOfNum
 		for( i=1;i<=num;i++)
 		{
 			if(num%i==0)
-		
-			System.out.print(i +" " );
-		
-		sum+=i;
+			{
+				System.out.print(i +" " );
+				sum+=i;
+			}
 		}
-	System.out.println(sum);
-
-	}
+		System.out.println(sum);
+		}
 }
